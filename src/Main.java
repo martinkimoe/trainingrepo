@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        String myUsername = "this is my username";
-        String myPassword = "This is my password";
+        String myUsername = "martin";
+        String myPassword = "kode";
 
         if(!User.validateUsername(myUsername)) {
             System.out.println("Username doesn't fit the rules. Please check the User class.");
